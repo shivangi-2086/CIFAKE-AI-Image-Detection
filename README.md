@@ -60,7 +60,7 @@ Prediction: Real
 
 Confidence: 89.86%
 
-<img src="blob:chrome-untrusted://media-app/19deaeea-dcb4-4ac1-ab86-0610442bb29e" alt="![Prediction Result](prediction.png)/><img width="558" height="696" alt="image" src="https://github.com/user-attachments/assets/17a6ddf0-e3d4-409c-b19d-8c992abbd291" />
+<img src="blob:chrome-untrusted://media-app/19deaeea-dcb4-4ac1-ab86-0610442bb29e" alt="![Prediction Result](prediction.png)"/><img width="558" height="696" alt="image" src="https://github.com/user-attachments/assets/17a6ddf0-e3d4-409c-b19d-8c992abbd291" />
 
 
 ## Future Improvements
