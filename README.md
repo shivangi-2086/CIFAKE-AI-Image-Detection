@@ -27,12 +27,11 @@ CIFAKE/
 │── README.md
 │── requirements.txt
 │
-├── model/
-│   └── cifake_model.keras
-│
 ├── test_images/
 │
-└── outputs/
+└── home.png
+|__ gradcam.png
+|__ prediction.png
 ```
 
 ## Installation
