@@ -3,7 +3,7 @@ import tensorflow as tf
 import numpy as np
 from PIL import Image
 
-model = tf.keras.models.load_model("model/cifake_model.keras")
+model = tf.keras.models.load_model("cifake_model.keras")
 
 st.title("🖼️ CIFAKE - AI Image Detector")
 
