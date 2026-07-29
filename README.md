@@ -68,8 +68,9 @@ Prediction: Real
 
 Confidence: 89.86%
 
-<img width="509" height="573" alt="Screenshot 2026-07-29 22 00 11" src="https://github.com/user-attachments/assets/c54fb88d-5062-45e3-a8c8-06c5c78c0ba9" /><alt="![Prediction Result](prediction.png)"/><img width="558" height="696" alt="image" src="https://github.com/user-attachments/assets/17a6ddf0-e3d4-409c-b19d-8c992abbd291" />
 
+<img width="509" height="573" alt="Screenshot 2026-07-29 22 00 11" src="https://github.com/user-attachments/assets/b5a655ee-1b86-45f1-bd63-bc36f6da5e70" />
+![Prediction Result](prediction.png)
 
 ## Future Improvements
 
