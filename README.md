@@ -1,37 +1,45 @@
 # CIFAKE – AI Generated Image Detection
 
 ## Overview
-CIFAKE is a deep learning project that classifies images as Real or AI-Generated using a Convolutional Neural Network (CNN). The project is built using TensorFlow and Keras and provides an easy-to-use interface for image prediction.
+
+CIFAKE is a deep learning-based web application that detects whether an uploaded image is Real or AI-Generated using a Convolutional Neural Network (CNN). The application is built with TensorFlow, Keras, and Streamlit, providing users with an intuitive interface for image classification.
+
+## Live Demo
+
+🔗 https://cifake-ai-image-detection.onrender.com
 
 ## Features
-- Detects Real and AI-Generated images
-- CNN-based image classification
-- Streamlit web interface
-- TensorFlow & Keras implementation
-- Easy image prediction using uploaded files
+
+- Detects whether an image is **Real** or **AI-Generated**
+- CNN-based binary image classification
+- Interactive Streamlit web interface
+- Displays prediction confidence
+- Supports JPG, JPEG and PNG images
 
 ## Technologies Used
+
 - Python
 - TensorFlow
 - Keras
+- Streamlit
 - NumPy
 - Pillow
-- Streamlit
 
 ## Project Structure
-```
+
+```text
 CIFAKE/
 │── app.py
 │── predict.py
 │── gradcam.py
-│── README.md
 │── requirements.txt
+│── README.md
 │
 ├── test_images/
 │
-└── home.png
-|__ gradcam.png
-|__ prediction.png
+├── home.png
+├── prediction.png
+└── gradcam.png
 ```
 
 ## Installation
@@ -40,15 +48,15 @@ CIFAKE/
 pip install -r requirements.txt
 ```
 
-## Run
+## Run the Application
 
-Terminal Version
+### Command Line
 
 ```bash
 python predict.py
 ```
 
-Web App
+### Streamlit Web App
 
 ```bash
 streamlit run app.py
@@ -65,7 +73,7 @@ Confidence: 89.86%
 
 ## Future Improvements
 
-- Grad-CAM heatmap visualization
+- Grad-CAM heatmap visualization in the web interface
 - Support for multiple AI image generators
-- Improved CNN architecture
-- Web deployment
+- Improve CNN accuracy with advanced architectures
+- Multi-class classification for different AI models
