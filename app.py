@@ -24,9 +24,9 @@ if uploaded:
 
     confidence = float(pred[0][0])
 
-    if confidence > 0.5:
-        st.success("Prediction: AI Generated")
-        st.write(f"Confidence: {confidence*100:.2f}%")
-    else:
-        st.success("Prediction: Real")
-        st.write(f"Confidence: {(1-confidence)*100:.2f}%")
+   if confidence > 0.5:
+    st.success("Prediction: Real")
+    st.write(f"Confidence: {confidence*100:.2f}%")
+else:
+    st.success("Prediction: AI Generated")
+    st.write(f"Confidence: {(1-confidence)*100:.2f}%")
