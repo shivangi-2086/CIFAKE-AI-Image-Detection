@@ -20,10 +20,10 @@ if uploaded:
     img = np.array(img, dtype=np.float32)   
     img = np.expand_dims(img, axis=0)
 
-   pred = model.predict(img, verbose=0)
-   confidence = float(pred[0][0])
+    pred = model.predict(img, verbose=0)
+    confidence = float(pred[0][0])
 
-   st.write("Raw model output:", confidence)
+    st.write("Raw model output:", confidence)
 
     if confidence > 0.5:
         st.success("Prediction: Real")
